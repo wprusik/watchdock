@@ -1,6 +1,7 @@
 # WatchDock
 
 Watchdog monitor for Docker containers, raises alerts for restart loops and long inactivity, and exposes a small web panel.
+For not, it supports SMS notifications via SMSAPI.pl.
 
 ## Requirements
 
