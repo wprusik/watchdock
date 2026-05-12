@@ -1,6 +1,6 @@
 # WatchDock
 
-WatchDock monitors Docker containers, raises alerts for restart loops and long inactivity, and exposes a small web panel.
+Watchdog monitor for Docker containers, raises alerts for restart loops and long inactivity, and exposes a small web panel.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ WatchDock monitors Docker containers, raises alerts for restart loops and long i
 ## Run locally
 
 ```bash
-mvn -q package
+mvn clean package
 java -jar target/watchdock-1.0-SNAPSHOT.jar
 ```
 
